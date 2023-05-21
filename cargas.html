@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=<div class="menu-lateral">
     <link rel="stylesheet" href="assets/css/style_cargas.css">
     <link rel="icon" href="assets/img/Vector.svg" type="image/x-icon"/>
-
+    <link rel="stylesheet" href="assets/css/style_cargas.css">
+    <link rel="icon" href="assets/img/Vector.svg" type="image/x-icon"/>
     <title>TransCargo</title>
 </head>
 <body>
@@ -21,9 +22,7 @@
             <p>Menu</p>
         </div>
         
-    
-
-        <ul>
+            <ul>
             <li>
                 <img src="assets/img/icone_cargas.svg" alt="icone_cargas">
                  <a href="#">Cargas</a>
@@ -57,10 +56,70 @@
             </ul>
              </div>
 
+
      <!--Tela quadrada do fundo-->
      <div class="content">
-        <div class="teladefundo"></div>
+        <div class="teladefundo">
+            <div class="split right">
+                <div class="centered">
+                    <h1>Cargas</h1>
+                    <Form>
+                        <label for="numero_conhecimento">NUMERO DO CONHECIMENTO</label>
+                        <input type="text" id="nome" name="nome" placeholder="Numero do conhecimento">
+                        <div class="two-col">
+                            <div class="col1">
+                                <label for="Tipo de Carga">TIPO DE CARGA</label>
+                                <input type="text" id="tipo_Carga" name="Tipo_Carga" placeholder="TipoCarga">
+                            </div>
+                            <div class="col2">
+                               <label for="PESO">PESO</label>
+                                <input type="text" id="PESO" name="PESO" placeholder="Peso">
+                            </div>
+                            <div class="col3">
+                                <label for="DIMENSAO">DIMENSAO</label>
+                                 <input type="text" id="DIMENSAO" name="DIMENSAO" placeholder="Dimensao">
+                             </div>
+                        
+                    <div class="input1">
+                        <label for="Destino">DESTINO</label>
+                        <input type="text" id="Destino" name="Destino" placeholder="Insira o Destino">
+                    </div>    
+                    <div class="input2">
+                        <label for="UF Destino">UF DESTINO</label>
+                        <input type="text" id="UF_DESTINO" name="UF_DESTINO" placeholder="UF">
+                    </div>
+
+                    <div class="input3" >
+                        <label for="Origem">ORIGEM</label>
+                        <input type="text" id="Origem" name="Origem" placeholder="Insira a Origem">
+                    </div>    
+                    <div class="input4">
+                        <label for="UF Origem">UF ORIGEM</label>
+                        <input type="text" id="UF_ORIGEM" name="UF_ORIGEM" placeholder="UF">
+                    </div>
+
+
+
+                </div>
+                        <input type="submit" value="Cadastrar">
+                    </Form>
+                    <div>
+                        <p>Já possui cadastro?</p>
+                        <a href="login.html" id="link">Entre!</a>
+                    </div>
+                </div> 
+            </div> 
+            <div class="dec_rectangle_linear top1"></div>
+            <div class="dec_rectangle_linear top2"></div>
+            <div class="dec_rectangle_linear bottom1"></div>
+            <div class="dec_rectangle_linear bottom2"></div>
+            <div class="dec_rectangle_linear bottom3"></div>
+            <img  id="transcargo_truck" src="assets/img/truck-login-2.svg"/>
+
+        </div>
     </div>
 </div>
+     
+
 </body>
 </html>
