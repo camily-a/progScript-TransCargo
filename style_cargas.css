@@ -1,0 +1,312 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #0E1C36;
+  }
+
+  .container{
+   display: flex;
+ }
+
+
+  .admin{
+   margin-left: 15px;
+  }
+
+  .menu-lateral{
+   margin-left: 10px;
+  }
+
+  .usuario{
+   display: flex;
+   align-items: center;
+  }
+  .menu{
+   margin-top: 30px;
+  }
+
+.menu-lateral {
+    width: 30vw;
+    height: 100vh;
+    background-color: #0E1C36;
+    color: #fff;
+    overflow-y: auto;
+
+    /* @media device {
+      width: 80vw;
+    } */
+    
+ }
+ 
+ .menu-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ .menu-lateral li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+ }
+ 
+ .menu-lateral li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+ }
+ 
+ .menu-lateral li:hover {
+    background-color: #555;
+ }
+ .content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:#0E234A;
+   width: 70vw;
+   height: 96vh;
+ }
+ .teladefundo{
+   background-color:#0E234A;
+   width: 98vw;
+   height: 94vh;
+   
+ }
+
+ body{
+  font-family: 'Inter', sans-serif;
+}
+
+p{
+  color: #9FA2B4;
+  font-size: 14px;
+}
+
+h1{
+  font-size: 25px;
+}
+
+
+/* separation of screen in two  */
+.split{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: #0E234A;
+    width: 55%;
+    
+  }
+  
+  .right {
+    right: 0;
+    background-color: #151515;
+    color: white;
+    width: 45%;
+  }
+  
+  .centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+/* RIGHT SIDE */
+/* forms input style */
+form{
+    position: relative;
+    width: 55%;
+    display: inline-block;
+}
+
+input[type=text], input[type=tel], input[type=password], input[type=email]{
+    width: 100%;
+    padding: 11px 20px;
+    border: 1px solid #888877;
+    margin: 6px 0;
+    background-color: #0E1C36;
+    box-sizing: border-box;
+  }
+  
+  label {
+    padding: 12px 0 0 0;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  input[type=submit] {
+    background-color: #76B900;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .checkbox{
+    color: #9FA2B4;
+    font-size: 12px;
+    display: inline;
+  }
+
+.two-col {
+  overflow: hidden;/* Makes this div contain its floats */
+}
+
+.two-col .col1,
+.two-col .col2,
+.two-col .col3{
+  width: 32%;
+}
+
+.two-col .col1 {
+  float: left;
+}
+
+.two-col .col2 {
+ float: right;
+  
+}
+.two-col .col3{
+display: block;
+justify-content: center;
+margin: auto;
+}
+.loginLink{
+  width: 30%;
+}
+
+#link{
+  color: #5F66E9;
+}
+
+
+/* LEFT SIDE */
+
+/* decoration elements style - middle (above all)*/
+.dec_rectangle_linear {
+    position: absolute;
+    width: 740px;
+    height: 35px;
+    z-index: 2;
+    background: linear-gradient(110.19deg , #0E1C36, #0E1C36,  #ffffff00);
+}
+
+    .top1{
+        top: 0;
+        left: 40%; 
+    }
+    .top2{
+        top: 5%;
+        left: 45%; 
+    }
+
+    .bottom1{
+        width: 300px;
+        height: 35px;
+        bottom: 10%;
+        left: 42%; 
+    }
+
+    .bottom2{
+        width: 300px;
+        bottom: 5%;
+        left: 47%;
+    }
+    .bottom3{
+        width: 300px;
+        bottom: 0%;
+        left: 52%;
+    }
+
+    .split-left-green{
+      width: 95px;
+      height: 400px;
+      top: 32%;
+      left: 31%;
+      background: linear-gradient(#76B900, #76B900,#ffffff00);
+    }
+
+    .split-left-blue{
+      width: 300px;
+      height: 70px;
+      top: 32%;
+      left: 0%;
+      background: linear-gradient(#0E1C36, #0E1C36);
+    }
+
+    
+img#transcargo_truck{
+    position: absolute;
+    z-index: 3;
+    width: 270px;
+    left: 37%;
+    bottom: 0%;
+}
+
+img#transcargo_truck_small{
+    position: absolute;
+    width: 230px;
+    left: 15%;
+    top: 15%;
+}
+  
+
+.two-col {
+  overflow: hidden;/* Makes this div contain its floats */
+}
+
+.two-col .input1,
+.two-col .input2{
+  width: 55%;
+}
+
+.two-col .input1 {
+  float: left;
+}
+
+.two-col .input2 {
+  float: right;
+  width: 24%;
+}
+
+.two-col .input3,
+.two-col .input4{
+  width: 55%;
+}
+
+
+.two-col .input3 {
+  float: left;
+}
+
+
+.two-col .input4 {
+  float: right;
+  width: 24%;
+}
+
+.animated-input {
+  padding: 10px;
+  font-size: 16px;
+  animation: inputAnimation 1s infinite alternate;
+}
+
+@keyframes inputAnimation {
+  0% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(1.1);
+  }
+}
